@@ -36,9 +36,23 @@ export default function App() {
         />
 </Routes>
     <Footer />
-    <div className="text-center py-4 text-xs text-muted-foreground border-t">
-      Lipa City Portal — Maintained by Angelito Virrey (BetterGov.ph Volunteer)
-    </div>
+<Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="/districts" element={<Navigate to="/#offices" replace />} />
+      <Route path="/gaa" element={<Enacted />} />
+      <Route path="/about" element={<About />} />
+      <Route path="/projects/:dataset/:id" element={<Project />} />
+      <Route
+        path="*"
+        element={
+          <main className="page main">
+            <p className="state">This page does not exist. <Link to="/">See every project</Link></p>
+          </main>
+        }
+      />
+    </Routes>
+    <Footer />
   </>
 );
+});
 }
