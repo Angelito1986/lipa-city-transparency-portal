@@ -35,11 +35,10 @@ export default function App() {
             </main>
           }
         />
-      </Routes>
-<Footer />
-    <div className="text-center py-3 text-xs text-muted-foreground border-t">
+</Routes>
+    <Footer />
+    <div className="text-center py-4 text-xs text-muted-foreground border-t">
       Lipa City Portal — Maintained by Angelito Virrey (BetterGov.ph Volunteer)
     </div>
   </>
 );
-}
