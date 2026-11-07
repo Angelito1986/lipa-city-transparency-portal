@@ -122,8 +122,6 @@ export function Footer() {
             <span className="label">Data</span>
             <a href={`${client.base}/docs`} target="_blank" rel="noopener">Budget API and MCP ↗</a>
           </li>
-          <li>
-          </li>
         </ul>
       </div>
     </footer>
