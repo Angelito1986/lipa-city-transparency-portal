@@ -14,7 +14,6 @@ export default function App() {
   return (
     <>
       <ScrollToTop />
-      <Masthead />
       {problems.length > 0 && (
         <div className="page config-warning" role="alert">
           <strong>portal.config.ts needs attention</strong> (shown in development only):
@@ -37,7 +36,9 @@ export default function App() {
           }
         />
       </Routes>
-      <Footer />
+      <Footer /><div className="text-center py-3 text-xs text-muted-foreground border-t">
+  Lipa City Portal — Maintained by Angelito Virrey (BetterGov.ph Volunteer)
+</div>
     </>
   );
 }
