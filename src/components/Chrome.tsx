@@ -123,8 +123,6 @@ export function Footer() {
             <a href={`${client.base}/docs`} target="_blank" rel="noopener">Budget API and MCP ↗</a>
           </li>
           <li>
-            <span className="label">Open source</span>
-            <a href={SOURCE_CODE_URL} target="_blank" rel="noopener">Fork this portal for your LGU or DPWH office ↗</a>
           </li>
         </ul>
       </div>
