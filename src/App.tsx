@@ -41,6 +41,4 @@ export default function App() {
       Lipa City Portal — Maintained by Angelito Virrey (BetterGov.ph Volunteer)
     </div>
   </>
-);    </>
-  );
-}
+);
