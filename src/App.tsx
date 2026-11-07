@@ -1,6 +1,5 @@
 import { Link, Navigate, Route, Routes } from 'react-router-dom';
-import { Footer, Masthead } from './components/Chrome';
-import ScrollToTop from './components/ScrollToTop';
+import { Footer } from './components/Chrome';import ScrollToTop from './components/ScrollToTop';
 import { configProblems } from './config';
 import { usePortal } from './lib/portal-context';
 import About from './pages/About';
